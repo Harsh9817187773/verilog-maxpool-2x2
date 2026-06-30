@@ -55,3 +55,4 @@ iverilog -o maxpool_sim tb_maxpool.v maxpool.v maxpool_controller.v maxpool_data
 3. Run the Simulation:
 Execute the compiled simulation using the vvp engine. This will read from input.txt, simulate the hardware clock cycles, and print the PASS/FAIL test results directly to your terminal.
 
+vvp maxpool_sim
